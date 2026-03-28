@@ -54,11 +54,11 @@ CREATE TABLE IF NOT EXISTS datamart.factsales (
     "SalesKey"        SERIAL          PRIMARY KEY,
 
     -- Foreign keys to dimensions
-    "OrderDateKey"    INTEGER         REFERENCES datamart.dimdate(date_key),
-    "CustomerKey"     INTEGER         REFERENCES datamart.dimcustomer(customer_key),
-    "EmployeeKey"     INTEGER         REFERENCES datamart.dimemployee(employee_key),
-    "ProductKey"      INTEGER         REFERENCES datamart.dimproduct(product_key),
-    "ShipperKey"      INTEGER         REFERENCES datamart.dimshipper(shipper_key),
+    "OrderDateKey"    INTEGER         REFERENCES datamart.dimdate("DateKey"),
+    "CustomerKey"     INTEGER         REFERENCES datamart.dimcustomer("CustomerKey"),
+    "EmployeeKey"     INTEGER         REFERENCES datamart.dimemployee("EmployeeKey"),
+    "ProductKey"      INTEGER         REFERENCES datamart.dimproduct("ProductKey"),
+    "ShipperKey"      INTEGER         REFERENCES datamart.dimshipper("ShipperKey"),
 
     -- Degenerate dimensions
     "OrderID"         INTEGER         NOT NULL,
