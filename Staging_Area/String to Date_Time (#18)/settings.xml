@@ -62,10 +62,10 @@
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.time"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-bundle-version" type="xstring" value="5.10.0.v202512121233"/>
-    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
-    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
-    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.11.0.v202602211509"/>
+    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="String to Date&amp;Time"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -81,6 +81,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="759c42e6-f05c-4ec4-bccb-417cdece03be"/>
+        <entry key="file_store_id" type="xstring" value="5540fd98-31f2-4639-b1b1-505e6e25e87f"/>
     </config>
 </config>
